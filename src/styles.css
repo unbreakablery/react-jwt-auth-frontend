@@ -1,0 +1,56 @@
+.App {
+    font-family: sans-serif;
+    /* text-align: center; */
+  }
+.app-toolbar {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: aqua;
+  color: black;
+  font-weight: bolder;
+  height: 70px;
+  width: 100%;
+}
+  
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 35px;
+  width: 255px;
+}
+
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+button:hover {background-color: #3e8e41}
+
+trix-toolbar {
+  font-size: larger;
+  padding-top: 12px;
+  width: 50%;
+  margin: auto;
+}
+
+trix-editor {
+  transition: background-color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  background-color: rgba(0, 0, 0, 0.09);
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1rem;
+  margin: auto;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.1875em;
+  letter-spacing: 0.00938em;
+  border-radius: 35px;
+  padding: 12px;
+}
