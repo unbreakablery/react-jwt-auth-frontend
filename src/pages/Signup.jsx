@@ -72,7 +72,7 @@ function Signup() {
         <Row >
           <Col>
             <Button className="m-4" variant="dark" onClick={() => submitSignup()}>Submit</Button>
-            <Button variant="dark" onClick={() => navigate('/login')}>Login</Button>
+            <Button variant="dark" onClick={() => navigate('/signin')}>Sign In</Button>
           </Col>
          </Row>
     </Container>
