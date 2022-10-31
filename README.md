@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## NOTE: Associated with ***ureact-jwt-auth-backend*** repo for back-end
+## NOTE: Associated with ***react-jwt-auth-backend*** repo for back-end
 
 ## Available Features
 
